@@ -36,7 +36,7 @@ using namespace System::Runtime::CompilerServices;
 [assembly:AssemblyConfigurationAttribute("")];
 [assembly:AssemblyCompanyAttribute("Autodesk")];
 [assembly:AssemblyProductAttribute("")];
-[assembly:AssemblyCopyrightAttribute("Autodesk © 2008-2009")];
+[assembly:AssemblyCopyrightAttribute("Autodesk ?2008-2009")];
 [assembly:AssemblyTrademarkAttribute("Autodesk")];
 [assembly:AssemblyCultureAttribute("")];		
 

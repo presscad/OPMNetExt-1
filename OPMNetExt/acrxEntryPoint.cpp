@@ -51,8 +51,16 @@ public:
 	}
 
 	virtual void RegisterServerComponents()
-  {}
+	{}
+	// 处理表格双击事件响应
+	static void OPMNetExtOPMNetExt_Test(void)
+	{
+		AfxMessageBox(_T("测试dll"));
+	}
 };
 
 IMPLEMENT_ARX_ENTRYPOINT(COPMNetExtApp)
+ACED_ARXCOMMAND_ENTRY_AUTO(COPMNetExtApp, OPMNetExt, OPMNetExt_Test, OPMNetExt_Test, ACRX_CMD_MODAL, NULL)
+
+
 

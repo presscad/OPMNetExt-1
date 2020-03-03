@@ -29,7 +29,7 @@
 #pragma warning(disable: 4786 4996)
 //#pragma warning(disable: 4098)
 
-#include <windows.h>
+//#include <windows.h>
 
 //- ObjectARX and OMF headers needs this
 
@@ -54,6 +54,8 @@
 //#define _ARX_CUSTOM_DRAG_N_DROP_	//- Support for the ObjectARX Drag'n Drop API
 //#define _INC_LEAGACY_HEADERS_		//- Include legacy headers in this project
 
+#include <afxwin.h>				// MFC 核心组件和标准组件
+#include <afxext.h>				// MFC 扩展
 #include "arxHeaders.h"
 
 #pragma pack (pop)
